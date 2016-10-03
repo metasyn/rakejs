@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="./rake.js"></script>
+    <script src="http://d3plus.org/js/d3.js"></script>
+    <script src="http://d3plus.org/js/d3plus.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+  </head>
+    <body>
+      <form action="" onsubmit="rakeTime(); return false;">
+        <h1>rake: rapid automatic keyword extraction</h1>
+        <h3>enter some text:</h3>
+        <textarea id="text" rows="10" cols="102">Andrey Markov was born on the 14th of June 1856 in Russia. He attend Petersburg Grammar, he was seen as a rebellious student by a select few of teachers. In his academics he performed poorly in most subjects other than mathematics (which later became his profession). Later in life he attended Petersburg University and was lectured by Pafnuty Chebyshev. Among his teachers were Yulian Sokhotski (differential calculus, higher algebra), Konstantin Posse (analytic geometry), Yegor Zolotarev (integral calculus), Pafnuty Chebyshev (number theory and probability theory), Aleksandr Korkin (ordinary and partial differential equations), Mikhail Okatov (mechanism theory), Osip Somov (mechanics), and Nikolai Budaev (descriptive and higher geometry). He completed his studies at the University and was later asked if he would like to stay and have a career as a Mathematician. He later taught at high schools and continued his own mathematical studies. In this time he found a practical use for his mathematical skills he figured out that he could use chains to model the alliteration of vowels and consonants in Russian literature. He also contributed to many other mathematical aspects in his time. He died at age 66 on the 20th of July 1922.During the following year, he passed the candidate's examinations, and he remained at the university to prepare for a lecturer's position. In April 1880, Markov defended his master's thesis "About Binary Quadratic Forms with Positive Determinant", which was encouraged by Aleksandr Korkin and Yegor Zolotarev. Five years later, in January 1885, there followed his doctoral thesis "About Some Applications of Algebraic Continuous Fractions". His pedagogical work began after the defense of his master's thesis in autumn 1880. As a privatdozent he lectured on differential and integral calculus. Later he lectured alternately on "introduction to analysis", probability theory (succeeding Chebyshev, who had left the university in 1882) and the calculus of differences. From 1895 through 1905 he also lectured in differential calculus. Markov in 1886 Markov in 1886 One year after the defense of his doctoral thesis, Markov was appointed extraordinary professor (1886) and in the same year he was elected adjunct to the Academy of Sciences. In 1890, after the death of Viktor Bunyakovsky, Markov became an extraordinary member of the academy. His promotion to an ordinary professor of St. Petersburg University followed in the fall of 1894. In 1896, Markov was elected an ordinary member of the academy as the successor of Chebyshev. In 1905, he was appointed merited professor and was granted the right to retire, which he did immediately. Until 1910, however, he continued to lecture in the calculus of differences. In connection with student riots in 1908, professors and lecturers of St. Petersburg University were ordered to monitor their students. Markov refused to accept this decree, and he wrote an explanation in which he declined to be an "agent of the governance". Markov was removed from further teaching duties at St. Petersburg University, and hence he decided to retire from the university. Markov was an atheist. In 1912 he protested Leo Tolstoy's excommunication from the Russian Orthodox Church by requesting his own excommunication. The Church complied with his request.[2][3] Markov's headstone Markov's headstone In 1913, the council of St. Petersburg elected nine scientists honorary members of the university. Markov was among them, but his election was not affirmed by the minister of education. The affirmation only occurred four years later, after the February Revolution in 1917. Markov then resumed his teaching activities and lectured on probability theory and the calculus of differences until his death in 1922.
+        </textarea>
+        <h3>how many keywords would you like to see?</h3>
+        <input id="top-words" type="number" value="10">
+        <input id="submit" type="submit">
+      </form>
+      <div id="viz">
+      </div>
+    </body>
+</html>
+
